@@ -1,0 +1,24 @@
+From fa95ba3154baf348ef295d079830e2aa453023c2 Mon Sep 17 00:00:00 2001
+From: John Ullyses Capellan <john.capellan@mdscsi.com>
+Date: Thu, 11 Aug 2022 11:45:42 +0800
+Subject: [PATCH 3/3] replace
+
+---
+ index.php | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/index.php b/index.php
+index 32caa6c..d091d92 100644
+--- a/index.php
++++ b/index.php
+@@ -1,6 +1,6 @@
+ <html>
+  <head>
+-  <title>PHP Test</title>
++  <title>3-main</title>
+  </head>
+  <body>
+  <?php echo '<p>Hello Main</p>'; ?> 
+-- 
+2.36.0
+

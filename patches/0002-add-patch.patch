@@ -1,0 +1,44 @@
+From de69219312f2164e7d276f8a539701b9b0d524ee Mon Sep 17 00:00:00 2001
+From: John Ullyses Capellan <john.capellan@mdscsi.com>
+Date: Thu, 11 Aug 2022 11:20:30 +0800
+Subject: [PATCH 2/3] add patch
+
+---
+ patches/0001-main.patch | 25 +++++++++++++++++++++++++
+ 1 file changed, 25 insertions(+)
+ create mode 100644 patches/0001-main.patch
+
+diff --git a/patches/0001-main.patch b/patches/0001-main.patch
+new file mode 100644
+index 0000000..eca412f
+--- /dev/null
++++ b/patches/0001-main.patch
+@@ -0,0 +1,25 @@
++From b9b11a8bb34fa5903795cd10f598fdb5e65aa0bb Mon Sep 17 00:00:00 2001
++From: John Ullyses Capellan <john.capellan@mdscsi.com>
++Date: Thu, 11 Aug 2022 11:07:35 +0800
++Subject: [PATCH] main
++
++---
++ index.php | 2 +-
++ 1 file changed, 1 insertion(+), 1 deletion(-)
++
++diff --git a/index.php b/index.php
++index feb9cfd..32caa6c 100644
++--- a/index.php
+++++ b/index.php
++@@ -3,6 +3,6 @@
++   <title>PHP Test</title>
++  </head>
++  <body>
++- <?php echo '<p>Hello World</p>'; ?> 
+++ <?php echo '<p>Hello Main</p>'; ?> 
++  </body>
++ </html>
++\ No newline at end of file
++-- 
++2.36.0
++
+-- 
+2.36.0
+
